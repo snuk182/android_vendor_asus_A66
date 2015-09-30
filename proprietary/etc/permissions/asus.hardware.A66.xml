@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<permissions>
+    <!-- Asus epad hardware feature-->
+    <feature name="asus.hardware.dock" />
+    <feature name="asus.hardware.keyboard" />
+    <feature name="asus.hardware.cpu_mode" />
+    <feature name="asus.hardware.display.super_ips" />
+</permissions>
