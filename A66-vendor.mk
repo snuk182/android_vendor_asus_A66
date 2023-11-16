@@ -130,60 +130,27 @@ PRODUCT_COPY_FILES += \
     vendor/asus/A66/proprietary/etc/firmware/EC/A60K-DOCK-0213.rom:system/etc/firmware/EC/A60K-DOCK-0213.rom \
     vendor/asus/A66/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/asus/A66/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/asus/A66/proprietary/etc/firmware/q6.b00:system/vendor/firmware/q6.b00 \
-    vendor/asus/A66/proprietary/etc/firmware/q6.b01:system/vendor/firmware/q6.b01 \
-    vendor/asus/A66/proprietary/etc/firmware/q6.b03:system/vendor/firmware/q6.b03 \
-    vendor/asus/A66/proprietary/etc/firmware/q6.b04:system/vendor/firmware/q6.b04 \
-    vendor/asus/A66/proprietary/etc/firmware/q6.b05:system/vendor/firmware/q6.b05 \
-    vendor/asus/A66/proprietary/etc/firmware/q6.b06:system/vendor/firmware/q6.b06 \
-    vendor/asus/A66/proprietary/etc/firmware/q6.mdt:system/vendor/firmware/q6.mdt \
-    vendor/asus/A66/proprietary/etc/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
-    vendor/asus/A66/proprietary/etc/firmware/wcnss.b00:system/vendor/firmware/wcnss.b00 \
-    vendor/asus/A66/proprietary/etc/firmware/wcnss.b01:system/vendor/firmware/wcnss.b01 \
-    vendor/asus/A66/proprietary/etc/firmware/wcnss.b02:system/vendor/firmware/wcnss.b02 \
-    vendor/asus/A66/proprietary/etc/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
-    vendor/asus/A66/proprietary/etc/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
-    vendor/asus/A66/proprietary/etc/firmware/modem.mdt:system/vendor/firmware/modem.mdt \
-    vendor/asus/A66/proprietary/etc/firmware/modem.b00:system/vendor/firmware/modem.b00 \
-    vendor/asus/A66/proprietary/etc/firmware/modem.b01:system/vendor/firmware/modem.b01 \
-    vendor/asus/A66/proprietary/etc/firmware/modem.b02:system/vendor/firmware/modem.b02 \
-    vendor/asus/A66/proprietary/etc/firmware/modem.b03:system/vendor/firmware/modem.b03 \
-    vendor/asus/A66/proprietary/etc/firmware/modem.b04:system/vendor/firmware/modem.b04 \
-    vendor/asus/A66/proprietary/etc/firmware/modem.b06:system/vendor/firmware/modem.b06 \
-    vendor/asus/A66/proprietary/etc/firmware/modem.b07:system/vendor/firmware/modem.b07 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.mdt:system/vendor/firmware/modem_f2.mdt \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b00:system/vendor/firmware/modem_f2.b00 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b01:system/vendor/firmware/modem_f2.b01 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b02:system/vendor/firmware/modem_f2.b02 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b03:system/vendor/firmware/modem_f2.b03 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b04:system/vendor/firmware/modem_f2.b04 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b05:system/vendor/firmware/modem_f2.b05 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b06:system/vendor/firmware/modem_f2.b06 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b07:system/vendor/firmware/modem_f2.b07 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b08:system/vendor/firmware/modem_f2.b08 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b09:system/vendor/firmware/modem_f2.b09 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b10:system/vendor/firmware/modem_f2.b10 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b13:system/vendor/firmware/modem_f2.b13 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b14:system/vendor/firmware/modem_f2.b14 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b21:system/vendor/firmware/modem_f2.b21 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b22:system/vendor/firmware/modem_f2.b22 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b23:system/vendor/firmware/modem_f2.b23 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b25:system/vendor/firmware/modem_f2.b25 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b26:system/vendor/firmware/modem_f2.b26 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b29:system/vendor/firmware/modem_f2.b29 \
-    vendor/asus/A66/proprietary/etc/firmware/modem_f2.fli:system/vendor/firmware/modem_f2.fli \
-    vendor/asus/A66/proprietary/etc/firmware/tzapps.b00:system/vendor/firmware/tzapps.b00 \
-    vendor/asus/A66/proprietary/etc/firmware/tzapps.b01:system/vendor/firmware/tzapps.b01 \
-    vendor/asus/A66/proprietary/etc/firmware/tzapps.b02:system/vendor/firmware/tzapps.b02 \
-    vendor/asus/A66/proprietary/etc/firmware/tzapps.b03:system/vendor/firmware/tzapps.b03 \
-    vendor/asus/A66/proprietary/etc/firmware/tzapps.mdt:system/vendor/firmware/tzapps.mdt \
-    vendor/asus/A66/proprietary/etc/firmware/dsps.b00:system/vendor/firmware/dsps.b00 \
-    vendor/asus/A66/proprietary/etc/firmware/dsps.b01:system/vendor/firmware/dsps.b01 \
-    vendor/asus/A66/proprietary/etc/firmware/dsps.b02:system/vendor/firmware/dsps.b02 \
-    vendor/asus/A66/proprietary/etc/firmware/dsps.b03:system/vendor/firmware/dsps.b03 \
-    vendor/asus/A66/proprietary/etc/firmware/dsps.b04:system/vendor/firmware/dsps.b04 \
-    vendor/asus/A66/proprietary/etc/firmware/dsps.b05:system/vendor/firmware/dsps.b05 \
-    vendor/asus/A66/proprietary/etc/firmware/dsps.mdt:system/vendor/firmware/dsps.mdt \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.mdt:system/etc/firmware/modem_fw.mdt \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b00:system/etc/firmware/modem_fw.b00 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b01:system/etc/firmware/modem_fw.b01 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b02:system/etc/firmware/modem_fw.b02 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b03:system/etc/firmware/modem_fw.b03 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b04:system/etc/firmware/modem_fw.b04 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b05:system/etc/firmware/modem_fw.b05 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b06:system/etc/firmware/modem_fw.b06 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b07:system/etc/firmware/modem_fw.b07 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b08:system/etc/firmware/modem_fw.b08 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b09:system/etc/firmware/modem_fw.b09 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b10:system/etc/firmware/modem_fw.b10 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b13:system/etc/firmware/modem_fw.b13 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b14:system/etc/firmware/modem_fw.b14 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b21:system/etc/firmware/modem_fw.b21 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b22:system/etc/firmware/modem_fw.b22 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b23:system/etc/firmware/modem_fw.b23 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b25:system/etc/firmware/modem_fw.b25 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b26:system/etc/firmware/modem_fw.b26 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.b29:system/etc/firmware/modem_fw.b29 \
+    vendor/asus/A66/proprietary/etc/firmware/modem_f2.fli:system/etc/firmware/modem_fw.fli \
     vendor/asus/A66/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
     vendor/asus/A66/proprietary/etc/hosts:system/etc/hosts \
     vendor/asus/A66/proprietary/etc/init.asus.ramdump.sh:system/etc/init.asus.ramdump.sh \
@@ -366,12 +333,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/A66/proprietary/lib/libmllite6050.so:system/lib/libmllite6050.so \
     vendor/asus/A66/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/asus/A66/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
-    vendor/asus/A66/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-    vendor/asus/A66/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/asus/A66/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/asus/A66/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+    vendor/asus/A66/proprietary/lib/egl/libGLESv2S3D_adreno.so:system/lib/egl/libGLESv2S3D_adreno.so \
+    vendor/asus/A66/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
+    vendor/asus/A66/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
+    vendor/asus/A66/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
     vendor/asus/A66/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/asus/A66/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+    vendor/asus/A66/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
     vendor/asus/A66/proprietary/lib/libchromatix_ov2720_hfr.so:system/lib/libchromatix_ov2720_hfr.so \
     vendor/asus/A66/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
     vendor/asus/A66/proprietary/lib/libqdMetaData.so:system/lib/libqdMetaData.so \
